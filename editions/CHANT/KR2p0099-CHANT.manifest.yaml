@@ -1,0 +1,33 @@
+canonical_identifier: bkk:krp/KR2p0099/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR2p0099/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 第二類簡
+  identifiers:
+    krp: KR2p0099
+  tags:
+    kr-categories: KR2p
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0099.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0099_001-CHANT.yaml, hash: 'sha256:8677d0badf934ab375a46568252084fae0eb38b14e9e932d7ad7cf07a642efef'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2p0099_001-CHANT.markers.yaml, hash: 'sha256:ccade2a8604f6b573211e798b4dfda58597cb77d57fb46e9cbb601f27fa6ccc2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0099_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 930
+  label: 武威漢代醫簡第二類簡
+  type: section
+  level: 1
+hash: sha256:7ac7cc69342c0abcb617b739169bf51608eed04a2d73e8bb80819aec342a1dab
