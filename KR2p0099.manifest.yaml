@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR2p0099/v1
 canonical_location: https://kanripo.org/bkk/KR2p0099/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 第二類簡
   identifiers:
@@ -16,9 +16,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR2p0099_001.yaml, hash: 'sha256:8677d0badf934ab375a46568252084fae0eb38b14e9e932d7ad7cf07a642efef'}
+  - {seq: 1, filename: KR2p0099_001.yaml, hash: 'sha256:d4f81ee9467f44ea145f2af983988461045f0c38191396e66424f8a36438309c'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR2p0099_001.markers.yaml, hash: 'sha256:6026b4013963ff08ca8296afd065cbed2bee9f443740feec33e8a82cdb1b6c81'}
+  - {seq: 1, role: markers, filename: assets/KR2p0099_001.markers.yaml, hash: 'sha256:b7f50cb3f15f499c3f5059f10084732cd2f1e414e3c421de5eb01199de74268a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -30,4 +30,7 @@ table_of_contents:
   label: 武威漢代醫簡第二類簡
   type: section
   level: 1
-hash: sha256:3e6926d364f8f65b8a2180df7f46b5bd4da8e070845f95d0153c19fcea51286d
+hash: sha256:58c4b68ef3b149e8c6317b067ef8e87a6853e9a7c8ad6852c70ffdf258468ffc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
